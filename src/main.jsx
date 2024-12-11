@@ -5,16 +5,17 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const colors = {
   brand: {
-    // Darker purple
-    darker: "#4138A8",
-    // Purple.
-    main: "#4A3FBF",
-    lighter: "#6E66CC"
+    // Rich indigo
+    darker: "#4C1D95",
+    // Purple
+    main: "#6D28D9",
+    // Lighter purple
+    lighter: "#8B5CF6"
   },
   gray: {
-    50: "#F5F5F5", // white smoke
-    100:"#EBEBEB", // Anti flash white
-    200: "#E0E0E0" // Platinum
+    50: "#F8F7FF", // Light lavender white
+    100: "#EDE9FE", // Soft lavender
+    200: "#DDD6FE" // Medium lavender
   },
   fonts: {
     heading: "'Nunito', sans-serif'",
